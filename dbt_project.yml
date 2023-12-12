@@ -18,10 +18,5 @@ snapshot-paths:
   - snapshots
 
 clean-targets:
-  - "target"
-  - "dbt_packages"
-
-models:
-  vuanembi:
-    example:
-      +materialized: view
+  - target
+  - dbt_packages
