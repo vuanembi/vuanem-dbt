@@ -5,7 +5,6 @@ sources:
     dataset: IP_SuiteAnalyticsConnect
     tables:
       - name: ACCOUNTING_PERIODS
-      - name: ACCOUNTING_PERIODS
       - name: ACCOUNTS
       - name: ADDRESS
       - name: ADDRESS_BOOK
@@ -46,30 +45,8 @@ sources:
       - name: SYSTEM_NOTES_PRICE
       - name: SYSTEM_NOTES_SUCCESS
       - name: SYSTEM_NOTES_SUCCESSFUL
-      - name: TRANSACTIONS_20180101
-      - name: TRANSACTIONS_20180701
-      - name: TRANSACTIONS_20190101
-      - name: TRANSACTIONS_20190701
-      - name: TRANSACTIONS_20200101
-      - name: TRANSACTIONS_20200701
-      - name: TRANSACTIONS_20210101
-      - name: TRANSACTIONS_20210701
-      - name: TRANSACTIONS_20220101
-      - name: TRANSACTIONS_20220701
-      - name: TRANSACTIONS_20230101
-      - name: TRANSACTIONS_20230701
-      - name: TRANSACTION_LINES_20180101
-      - name: TRANSACTION_LINES_20180701
-      - name: TRANSACTION_LINES_20190101
-      - name: TRANSACTION_LINES_20190701
-      - name: TRANSACTION_LINES_20200101
-      - name: TRANSACTION_LINES_20200701
-      - name: TRANSACTION_LINES_20210101
-      - name: TRANSACTION_LINES_20210701
-      - name: TRANSACTION_LINES_20220101
-      - name: TRANSACTION_LINES_20220701
-      - name: TRANSACTION_LINES_20230101
-      - name: TRANSACTION_LINES_20230701
+      - name: TRANSACTIONS_*
+      - name: TRANSACTION_LINES_*
       - name: UNITS_TYPE
       - name: VENDORS
       - name: classification
@@ -89,4 +66,29 @@ sources:
       - name: sales_2
       - name: sales_order
       - name: subsidiary
+      - name: vendor
+  - name: netsuite2.com
+    dataset: IP_SuiteAnalyticsConnect2
+    tables: 
+      - name: account
+      - name: budget
+      - name: classification
+      - name: couponcode
+      - name: delivery_method
+      - name: delivery_time
+      - name: department
+      - name: employee
+      - name: expected_shipping_method
+      - name: item
+      - name: leadsource
+      - name: location
+      - name: order_payment_method
+      - name: partner
+      - name: promotioncode
+      - name: store_traffic
+      - name: subsidiary
+      - name: tranpromotion
+      - name: transaction_*
+      - name: transactionaccountingline_*
+      - name: transactionline_*
       - name: vendor
