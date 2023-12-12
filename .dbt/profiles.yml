@@ -1,0 +1,14 @@
+vuanembi:
+  outputs:
+    master:
+      dataset: noop
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: service-account.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: voltaic-country-280607
+      threads: 8
+      type: bigquery
+  target: master
