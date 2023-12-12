@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: netsuite.com
+    dataset: IP_SuiteAnalyticsConnect
+    tables:
+      - name: ACCOUNTING_PERIODS
