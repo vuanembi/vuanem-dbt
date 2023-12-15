@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: caresoft
+    dataset: IP_Caresoft
+    tables:
+      -name: Agents
+      -name: Groups
+      -name: Services
+      -name: ContactsCustomFields
+      -name: TicketsCustomFields
+      -name: p_Campaigns
+      -name: p_Calls
+      -name: p_Contacts
+      -name: p_Tickets
+      -name: p_ContactsDetails
+      -name: p_TicketsDetails
