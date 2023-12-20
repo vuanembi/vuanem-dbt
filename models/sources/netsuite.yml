@@ -49,24 +49,6 @@ sources:
       - name: TRANSACTION_LINES_*
       - name: UNITS_TYPE
       - name: VENDORS
-      - name: classification
-      - name: couponcode
-      - name: delivery_method
-      - name: delivery_time
-      - name: department
-      - name: employee
-      - name: expected_shipping_method
-      - name: leadsource
-      - name: location
-      - name: order_payment_method
-      - name: partner
-      - name: profit_and_loss
-      - name: promotioncode
-      - name: sa_sales
-      - name: sales_2
-      - name: sales_order
-      - name: subsidiary
-      - name: vendor
   - name: netsuite2.com
     dataset: IP_SuiteAnalyticsConnect2
     tables: 
