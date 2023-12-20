@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: coffeehr
+  - dataset: IP_Caresoft
+  - tables: 
+    - name: Activities
+    - name: Employees
+    - name: Departments
